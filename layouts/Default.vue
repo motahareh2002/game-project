@@ -1,11 +1,11 @@
 <template>
-    <div class="bg-[#181c23] w-full h-full min-h-screen">
-        <div>
-            <Icon name="uiw:facebook"/>
-            <Icon name="uiw:twitter"/>
-            <Icon name="bxl:youtube"/>
-            <Icon name="bxl:discord"/>
-        </div>
-        <slot/>
+  <div class="bg-[#181c23] w-full h-full min-h-screen">
+    <div
+      class="flex flex-col items-center py-[8px] bg-[#292e38] sm:flex-row sm:justify-between sm:py-[0.5px] sm:px-[50px] md:px-[150px]"
+    >
+      <Social-icon />
+      <HeaderRight />
     </div>
+    <slot />
+  </div>
 </template>
