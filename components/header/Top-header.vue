@@ -1,11 +1,10 @@
-
-
 <template>
-  <div class="bg-[#181c23] w-full h-full min-h-screen">
-    <HeaderTopHeader />
-    <MenuMainMenu />
-    <slot />
-  </div>
+    <div
+      class="header-top"
+    >
+      <Social-icon />
+      <HeaderRight />
+    </div>
 </template>
 
 
